@@ -1,0 +1,683 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x845836AD795d6AA01858ba9FE09971dAD4b352c2",
+    "txHash": "0xa79d3d2cc395d912903d2e1780d0e1f414ff9c8ae2946496a4809db47fa4938e"
+  },
+  "proxies": [
+    {
+      "address": "0x922B23aBE8281Ea16Ba27FA16C9D11e73C9748Ca",
+      "txHash": "0x8f125d2b6e4cc1b786c0569f85891e6e65c3b6754a14df3e1a779151135d3b7a",
+      "kind": "uups"
+    },
+    {
+      "address": "0xDD3dEa2c4141e0F645B656b37a47032E67664870",
+      "txHash": "0x84edec6862218300fd570a860ebdded5686254505c2846172191fcf10638e8cb",
+      "kind": "uups"
+    },
+    {
+      "address": "0x6D0fE92eB7081715f5A8104819007eA5B18DcE8B",
+      "txHash": "0xb15887d2a938ceabd9a94e5c42a48ceea0e264b36752e0fe8e518abe44d41362",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xD2686C6cD0fdC07eC473993Dcd580A6A045FE34c",
+      "txHash": "0xe24e353c1f8b42a04b52530ddb299bb77892c019e30bd86cf3a621c368655d4e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xD3dCa03Da315bEbCe82B6a5ed62CF98525a81E38",
+      "txHash": "0x549aa19696ac702052fcedd83559a4f772b27c5820cab7f29b0598d5e535d91f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x928f563F39830cbD623a80F4772E0f702D61e880",
+      "txHash": "0xaff6d97a42e683e8212d258db06cc56348ff031b0e664def6a88063a33bd6ea7",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "7758cb6dd12bf2b2d07b03ea7284d0ee9e6e94b7778088164b143b1f4ad322c7": {
+      "address": "0xd0aF2675CF185a7D3c66B81DB33887BFBe85De61",
+      "txHash": "0x1e8c9965a6805e32ff66e0bf4ba23241e62788352e02700f984e5cfb793cac1e",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address_payable",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:44"
+          },
+          {
+            "label": "upgradeMAdr",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_address",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:45"
+          },
+          {
+            "label": "marketplaceConfAdr",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:46"
+          },
+          {
+            "label": "listingFees",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:47"
+          },
+          {
+            "label": "collections",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:48"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "21806f784018289ab7f40d7495ea58d3ef9fcf51350f88abf70290df19ac1850": {
+      "address": "0x1B214dEAdfcf992e40eBEe449b66399228736586",
+      "txHash": "0xad09b4ca7fa9e5956dc878f8e4080c3af964dff069c61b53b512104af2720a5e",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address_payable",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:44"
+          },
+          {
+            "label": "upgradeMAdr",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_address",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:45"
+          },
+          {
+            "label": "marketplaceConfAdr",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:46"
+          },
+          {
+            "label": "listingFees",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:47"
+          },
+          {
+            "label": "collections",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:48"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "c6a812da352900fbada58103098c3626170a54104a02a31a5c11e48b8ba69806": {
+      "address": "0x8F2495078A839ba614f478C0A72a3f6fa0b7bBc0",
+      "txHash": "0x95ccc4b14338cf6e2cbb0a785eedec513e2378796d6bcaa8eb934e54e7756947",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address_payable",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:44"
+          },
+          {
+            "label": "marketplaceAdr",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:45"
+          },
+          {
+            "label": "listingFees",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:46"
+          },
+          {
+            "label": "collections",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:47"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "699272f9c91f44048da321d6a46d695f5b2df11c5fcbf70779b39be157b4fbd6": {
+      "address": "0x00182D2EE9ae7500D4eCF79cb46D56A795Cf1545",
+      "txHash": "0x2482e60b16ffe0c024ac58dcba381484d32bc2e92faf9213ce476ad363ddea96",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address_payable",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:44"
+          },
+          {
+            "label": "marketplaceAdr",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:45"
+          },
+          {
+            "label": "listingFees",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:46"
+          },
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:47"
+          },
+          {
+            "label": "collections",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:48"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "e4493ba84700b20108f741710e740bcac79c488cfd9d87f89c044fa426dd3110": {
+      "address": "0x8205df1Dd9e9fD55472b71837325Af2e0c6a7b5a",
+      "txHash": "0xece86ff69395f00bd02564719ff1b19a955d6a3b684c8984cfdb4278af6c5519",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address_payable",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:44"
+          },
+          {
+            "label": "marketplaceAdr",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:45"
+          },
+          {
+            "label": "listingFees",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:46"
+          },
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:47"
+          },
+          {
+            "label": "collections",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:48"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "7d76e609110c3a1b1560186f8194f4735726a48a429af5284eb0c36a215aa742": {
+      "address": "0x3887610AE9A781AC2d6E20aA9Cc72B6AEB088e41",
+      "txHash": "0xe57551c6383cb0fdafa06b49e1c9d8fbc5aa23ce2a639f6bb853bbf954d40e47",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address_payable",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:44"
+          },
+          {
+            "label": "marketplaceAdr",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:45"
+          },
+          {
+            "label": "listingFees",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:46"
+          },
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:47"
+          },
+          {
+            "label": "collections",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "NewMarketplace",
+            "src": "contracts\\NewMarketplace.sol:48"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "6b00db93efc7c383c6cf7e8d920658f32111261cdcadc0943a21032187c758af": {
+      "address": "0xc246E5fA5d928264b58275015E49E919C8CB01ba",
+      "txHash": "0x96544214622823a81d41f713c82b0b36efbe5a35e39a0db409e9cb021d9661c3",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address_payable",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:44"
+          },
+          {
+            "label": "marketplaceAdr",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:45"
+          },
+          {
+            "label": "listingFees",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:46"
+          },
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:47"
+          },
+          {
+            "label": "collections",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:48"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "dfa6f521129ce0362fe284cb3766a22dc5a0953bb4194c6ee0a7d642e7a11785": {
+      "address": "0x43e8eD92898bF4E4acf1754c074957d17924782E",
+      "txHash": "0xe3ba416d3acc771799fd95111c5b4d791903ada751b0cf5547d8735fae2e7b0b",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address_payable",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:44"
+          },
+          {
+            "label": "marketplaceAdr",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:45"
+          },
+          {
+            "label": "listingFees",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:46"
+          },
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:47"
+          },
+          {
+            "label": "collections",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:49"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
