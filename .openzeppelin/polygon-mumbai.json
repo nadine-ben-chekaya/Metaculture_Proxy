@@ -678,6 +678,252 @@
           }
         }
       }
+    },
+    "bab5835c5d1b968ac6d141920a311da7632169dab13ab43383a27af2f9d24cd0": {
+      "address": "0xf6aCE95C776A81589d0a23d7a1d704d7dDf729ff",
+      "txHash": "0x9e5233cc7009d963e1b52606d90a28a8044a5f4f123699528bbebacf676c6fd5",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address_payable",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:44"
+          },
+          {
+            "label": "marketplaceAdr",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:45"
+          },
+          {
+            "label": "listingFees",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:46"
+          },
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:47"
+          },
+          {
+            "label": "collections",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:49"
+          },
+          {
+            "label": "secListingFees",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:55"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "e5aa1a3714e3426dd9f3a9ac8044f2afa3d8fe712bae5d6b83e1dc133df1227f": {
+      "address": "0xC95574671CFdb27b70d38FA83C1bF265669b5A65",
+      "txHash": "0x23829b1c5b0df9f84d76937128bac8e12727ca7a04a329a8f26eb6ce8fe6c1db",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address_payable",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:44"
+          },
+          {
+            "label": "marketplaceAdr",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:45"
+          },
+          {
+            "label": "listingFees",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:46"
+          },
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:47"
+          },
+          {
+            "label": "collections",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:50"
+          },
+          {
+            "label": "secListingFees",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:56"
+          },
+          {
+            "label": "collectionadd",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:57"
+          },
+          {
+            "label": "seller",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_address_payable",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:103"
+          },
+          {
+            "label": "started",
+            "offset": 20,
+            "slot": "7",
+            "type": "t_bool",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:105"
+          },
+          {
+            "label": "ended",
+            "offset": 21,
+            "slot": "7",
+            "type": "t_bool",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:106"
+          },
+          {
+            "label": "endAt",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:107"
+          },
+          {
+            "label": "nft",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_contract(IERC721)2446",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:109"
+          },
+          {
+            "label": "nftId",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:110"
+          },
+          {
+            "label": "highestBid",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_uint256",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:112"
+          },
+          {
+            "label": "highestBidder",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_address",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:113"
+          },
+          {
+            "label": "bids",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "NewMarketplaceV2",
+            "src": "contracts\\NewMarketplaceV2.sol:114"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC721)2446": {
+            "label": "contract IERC721",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
     }
   }
 }
